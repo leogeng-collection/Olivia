@@ -1,0 +1,691 @@
+<!doctype html>
+<html lang="zh-CN" data-lang="zh">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>林梦瑶 · 个人简历</title>
+<meta name="description" content="林梦瑶 Mengyao Lin — 英文翻译 · 涉外助理 · 双语教育 | Translator · Bilingual Assistant · Early Childhood Educator">
+<meta name="theme-color" content="#F4EEE4">
+<meta property="og:title" content="林梦瑶 Mengyao Lin · Resume">
+<meta property="og:description" content="英文翻译 · 涉外助理 · 双语教育 | Translator · Bilingual Assistant · Early Childhood Educator">
+<meta property="og:image" content="assets/photo.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Jost:wght@400;500&family=Noto+Serif+SC:wght@500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  color-scheme: light;
+  --paper:#F4EEE4;
+  --paper-2:#EDE5D7;
+  --card:#FAF6EF;
+  --ink:#1F1D1A;
+  --ink-2:#4F4A43;
+  --muted:#8F877C;
+  --line:#D8CEBE;
+  --terra:#B4573A;
+  --mustard:#E4BC55;
+  --indigo:#2F4C7E;
+  --display-en:"Cormorant Garamond", "Times New Roman", serif;
+  --display-zh:"Noto Serif SC", "Songti SC", serif;
+  --sans:"Jost", -apple-system, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+  --ease:cubic-bezier(.22,1,.36,1);
+}
+.stat b,.note .meta b,.link b{font-family:var(--sans)!important;font-weight:300!important;letter-spacing:-.01em}
+.link b{font-size:21px!important;font-weight:400!important}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{background:var(--paper);color:var(--ink);font-family:var(--sans);font-size:15.5px;line-height:1.7;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+img{display:block;max-width:100%}
+a{color:inherit;text-decoration:none}
+button{font:inherit;color:inherit;background:none;border:0;cursor:pointer;-webkit-tap-highlight-color:transparent}
+
+/* faint paper grain */
+body::before{content:"";position:fixed;inset:0;pointer-events:none;z-index:100;opacity:.35;mix-blend-mode:multiply;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 .45  0 0 0 0 .38  0 0 0 0 .28  0 0 0 .09 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E")}
+
+/* ---------- language ---------- */
+html[data-lang="zh"] [lang="en"]:not(html){display:none!important}
+html[data-lang="en"] [lang="zh"]:not(html){display:none!important}
+.d{font-family:var(--display-zh);font-weight:600;letter-spacing:.04em}
+html[data-lang="en"] .d{font-family:var(--display-en);font-weight:500;letter-spacing:-.005em}
+#page{transition:opacity .3s var(--ease)}
+body.swapping #page{opacity:0}
+
+/* ---------- top bar ---------- */
+.topbar{position:fixed;top:0;left:0;right:0;z-index:50;padding:calc(env(safe-area-inset-top) + 14px) 0 12px;transition:background .3s, box-shadow .3s}
+.topbar.scrolled{background:rgba(244,238,228,.9);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);box-shadow:0 1px 0 var(--line)}
+.topbar .wrap{display:flex;align-items:center;justify-content:space-between}
+.mark{font-size:12px;letter-spacing:.32em;font-weight:500;text-transform:uppercase}
+.mark i{font-style:normal;color:var(--terra);margin:0 .5em}
+.lang{display:flex;align-items:center;gap:2px;font-size:12px;letter-spacing:.14em}
+.lang button{padding:6px 6px;color:var(--muted);position:relative;transition:color .3s}
+.lang button[aria-pressed="true"]{color:var(--ink)}
+.lang button[aria-pressed="true"]::after{content:"";position:absolute;left:6px;right:6px;bottom:2px;height:1px;background:var(--terra)}
+.lang span{color:var(--line)}
+
+/* ---------- layout ---------- */
+.wrap{max-width:640px;margin:0 auto;padding:0 22px}
+section{padding:64px 0 0;scroll-margin-top:60px}
+.kicker{font-size:11px;letter-spacing:.3em;text-transform:uppercase;color:var(--ink-2);display:flex;align-items:center;gap:.6em}
+section > .kicker{font-size:13px;color:var(--ink);letter-spacing:.32em}
+html[data-lang="zh"] section > .kicker{font-size:15px;letter-spacing:.3em}
+.kicker i{font-style:normal;color:var(--terra)}
+h2.d{font-size:clamp(30px,8.4vw,40px);line-height:1.15;margin:12px 0 0}
+.rule{width:34px;height:1px;background:var(--terra);margin:14px 0 24px}
+
+/* ---------- hand-drawn line art ---------- */
+.art path,.art ellipse,.art circle,.art line{fill:none;stroke:var(--indigo);stroke-width:1.1;stroke-linecap:round;stroke-linejoin:round}
+.art .fill{fill:var(--indigo);stroke:none}
+.art .soft{stroke-width:.7;opacity:.7}
+.draw{stroke-dasharray:1;stroke-dashoffset:1;transition:stroke-dashoffset 2.6s var(--ease)}
+.in .draw,.draw.in{stroke-dashoffset:0}
+.art .fill{opacity:0;transition:opacity 1s 1.4s}
+.in .art .fill,.art.in .fill{opacity:.9}
+
+/* ---------- hero ---------- */
+.hero{padding:calc(env(safe-area-inset-top) + 92px) 0 8px;position:relative;overflow-x:clip}
+.hero-grid{position:relative}
+.arch-wrap{position:relative;width:min(64vw,260px);margin:0 auto}
+.arch-line{position:absolute;left:-12px;top:-12px;width:calc(100% + 24px);height:calc(100% + 24px);overflow:visible}
+.arch-line path{fill:none;stroke:var(--ink);stroke-width:.9;vector-effect:non-scaling-stroke}
+.arch{aspect-ratio:4/5;border-radius:999px 999px 0 0;overflow:hidden;background:#EFE6D6}
+.arch img{width:100%;height:100%;object-fit:cover;object-position:50% 16%;filter:saturate(.88) sepia(.06);mix-blend-mode:multiply;opacity:0;transform:scale(1.04);transition:opacity 1.4s var(--ease), transform 2.2s var(--ease)}
+.loaded .arch img{opacity:1;transform:none}
+.sprig{position:absolute;width:44%;right:-20%;bottom:-6%;transform:rotate(8deg)}
+.side-note{position:absolute;right:0;top:4px;font-size:10px;letter-spacing:.3em;line-height:2;text-transform:uppercase;color:var(--ink-2);text-align:left;display:none}
+.side-note::after{content:"";display:block;width:24px;height:1px;background:var(--terra);margin-top:10px}
+
+.intro{margin-top:44px}
+.hello{font-size:clamp(46px,14vw,72px);line-height:1;margin-top:16px}
+html[data-lang="zh"] .hello{letter-spacing:.12em}
+.hello i{font-style:normal;color:var(--terra)}
+.roles{margin-top:18px;font-size:11.5px;letter-spacing:.24em;text-transform:uppercase;color:var(--ink-2);line-height:2}
+html[data-lang="zh"] .roles{letter-spacing:.3em;font-size:13px}
+.roles i{font-style:normal;color:var(--terra);margin:0 .4em}
+.motto{margin-top:26px;font-size:clamp(22px,6.2vw,28px);line-height:1.5;color:var(--ink)}
+html[data-lang="zh"] .motto{font-weight:500;line-height:1.7}
+.hl{background-image:linear-gradient(var(--mustard),var(--mustard));background-repeat:no-repeat;background-size:0% 46%;background-position:0 88%;transition:background-size 1.2s var(--ease) .9s}
+.loaded .hl,.in .hl{background-size:100% 46%}
+.lead{margin-top:16px;color:var(--ink-2);font-size:15px;max-width:32em}
+.cta{display:inline-flex;align-items:center;gap:14px;margin-top:30px;font-family:var(--display-en);font-size:24px;font-weight:500}
+html[data-lang="zh"] .cta{font-family:var(--display-zh);font-size:18px;letter-spacing:.12em}
+.cta svg{width:92px;height:16px;transition:transform .5s var(--ease)}
+.cta:hover svg,.cta:active svg{transform:translateX(8px)}
+.cta path{fill:none;stroke:var(--ink);stroke-width:1;stroke-linecap:round}
+
+/* entrance */
+.enter{opacity:0;transform:translateY(14px);transition:opacity 1s var(--ease), transform 1s var(--ease);transition-delay:calc(var(--i,0) * 110ms + 200ms)}
+.loaded .enter{opacity:1;transform:none}
+
+/* ---------- stats ---------- */
+.stats{display:grid;grid-template-columns:1fr 1fr;margin-top:56px;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.stat{padding:18px 4px 18px 0}
+.stat:nth-child(even){padding-left:18px;border-left:1px solid var(--line)}
+.stat:nth-child(n+3){border-top:1px solid var(--line)}
+.stat small{display:block;font-size:12px;color:var(--ink-2);letter-spacing:.04em}
+.stat b{display:block;font-family:var(--display-en);font-weight:500;font-size:44px;line-height:1.05;margin-top:4px}
+.stat b sup{font-size:.45em;color:var(--terra);margin-left:2px}
+
+/* ---------- field rows (title: value) ---------- */
+.fields{border-top:1px solid var(--line)}
+.field{display:flex;gap:14px;padding:14px 0;border-bottom:1px solid var(--line);align-items:baseline}
+.field .k{flex:none;width:76px;font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:var(--muted)}
+html[data-lang="zh"] .field .k{letter-spacing:.2em;font-size:13px}
+.field .v{font-size:16px;color:var(--ink);font-weight:500;line-height:1.6}
+
+/* ---------- strengths ---------- */
+.list{border-top:1px solid var(--line)}
+.item{display:grid;grid-template-columns:38px 1fr;gap:4px 10px;padding:20px 0;border-bottom:1px solid var(--line)}
+.item .no{font-family:var(--display-en);font-style:italic;color:var(--terra);font-size:20px;line-height:1.3}
+.item h3{font-size:21px;line-height:1.35}
+html[data-lang="zh"] .item h3{font-size:17.5px}
+.item p{grid-column:2;color:var(--ink-2);font-size:14.5px}
+
+/* ---------- experience ---------- */
+.chips{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:18px}
+.chip{height:34px;padding:0 16px;border-radius:999px;border:1px solid var(--line);font-size:13px;color:var(--ink-2);transition:background .3s, color .3s, border-color .3s}
+.chip[aria-pressed="true"]{background:var(--terra);border-color:var(--terra);color:#fff}
+.jobs{border-top:1px solid var(--line)}
+.job{border-bottom:1px solid var(--line);overflow:hidden}
+.job.hide{display:none}
+.job-head{display:grid;grid-template-columns:1fr 20px;gap:4px 12px;width:100%;text-align:left;padding:20px 0}
+.job-head > span{grid-column:1}
+.when{font-size:12px;letter-spacing:.14em;color:var(--muted);font-variant-numeric:tabular-nums}
+.now{color:var(--terra);margin-left:8px;letter-spacing:.2em;font-size:11px}
+.now::before{content:"";display:inline-block;width:6px;height:6px;border-radius:50%;background:var(--terra);margin-right:6px;vertical-align:1px;animation:breathe 2.4s ease-in-out infinite}
+@keyframes breathe{50%{opacity:.25}}
+.role{font-size:22px;line-height:1.3;margin-top:4px}
+html[data-lang="zh"] .role{font-size:18px}
+.org{font-size:13.5px;color:var(--ink-2)}
+.sum{font-size:14px;color:var(--ink-2);margin-top:6px}
+.chev{grid-column:2;grid-row:1 / span 3;align-self:center;width:20px;height:20px;transition:transform .5s var(--ease)}
+.chev path{fill:none;stroke:var(--ink);stroke-width:1.2;stroke-linecap:round;stroke-linejoin:round}
+.job.open .chev{transform:rotate(90deg)}
+.mark-line{margin-top:10px;font-size:13.5px;color:var(--ink)}
+.mark-line span span{background:linear-gradient(transparent 58%, rgba(228,188,85,.55) 0)}
+.job-body{display:grid;grid-template-rows:0fr;transition:grid-template-rows .6s var(--ease)}
+.job.open .job-body{grid-template-rows:1fr}
+.job-body > div{overflow:hidden}
+.job-body .grp{font-size:11px;letter-spacing:.26em;text-transform:uppercase;color:var(--terra);margin:2px 0 6px}
+.job-body ul{list-style:none;padding:0 28px 20px 0}
+.job-body li{position:relative;padding-left:20px;font-size:14.5px;color:var(--ink-2);margin-top:8px;line-height:1.65}
+.job-body li::before{content:"";position:absolute;left:0;top:.85em;width:10px;height:1px;background:var(--ink-2)}
+.job-body li b{color:var(--ink);font-weight:500}
+
+/* ---------- education ---------- */
+.edu-art{display:block;width:150px;margin:0 auto 22px}
+.note{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:20px 20px 18px}
+.note + .note{margin-top:12px}
+.note .when{display:block}
+.note h3{font-size:24px;line-height:1.3;margin-top:6px}
+html[data-lang="zh"] .note h3{font-size:18.5px}
+.note .major{font-size:14px;color:var(--terra);margin-top:2px}
+.note p{font-size:14.5px;color:var(--ink-2);margin-top:10px}
+.note .meta{display:flex;justify-content:space-between;align-items:flex-end;margin-top:14px;padding-top:14px;border-top:1px solid var(--line)}
+.note .meta small{font-size:12px;color:var(--muted);letter-spacing:.06em}
+.note .meta b{font-family:var(--display-en);font-weight:500;font-size:34px;line-height:1}
+.note .meta b span{font-size:.5em;color:var(--muted)}
+.bar{height:2px;background:var(--line);margin-top:10px;position:relative;overflow:hidden}
+.bar i{position:absolute;inset:0;background:var(--terra);transform-origin:left;transform:scaleX(0);transition:transform 1.6s var(--ease) .3s}
+.in .bar i{transform:scaleX(.955)}
+
+/* ---------- credentials ---------- */
+.sub-t{font-size:11px;letter-spacing:.3em;text-transform:uppercase;color:var(--muted);margin:32px 0 6px}
+.rule + .sub-t{margin-top:0}
+.field .v small{display:block;font-size:13px;color:var(--muted);font-weight:400}
+.certs .field .k{width:28px;font-family:var(--display-en);font-style:italic;font-size:17px;color:var(--terra);letter-spacing:0;text-transform:none}
+
+/* ---------- quote ---------- */
+.quote{position:relative;padding-left:.5em}
+.quote .q{font-size:clamp(26px,7.2vw,34px);line-height:1.4;position:relative}
+html[data-lang="zh"] .quote .q{font-size:clamp(21px,5.8vw,26px);line-height:1.75;font-weight:500}
+.quote .q::before{content:"“";position:absolute;left:-.5em;top:0;font-family:var(--display-en)}
+.quote .by{margin-top:22px;font-size:16px}
+.quote p.more{margin-top:26px;color:var(--ink-2);font-size:15px}
+.quote p.more + p.more{margin-top:12px}
+
+/* ---------- contact ---------- */
+.contact-art{display:block;width:130px;margin:0 0 6px}
+.links{border-top:1px solid var(--ink)}
+.link{display:flex;align-items:center;gap:16px;padding:20px 0;border-bottom:1px solid var(--line)}
+.link small{display:block;font-size:11px;letter-spacing:.26em;text-transform:uppercase;color:var(--muted)}
+.link b{display:block;font-family:var(--display-en);font-weight:500;font-size:25px;line-height:1.3;word-break:break-all}
+.link svg{margin-left:auto;flex:none;width:46px;height:12px;transition:transform .4s var(--ease)}
+.link:active svg{transform:translateX(6px)}
+.link path{fill:none;stroke:var(--ink);stroke-width:1;stroke-linecap:round}
+footer{text-align:center;padding:56px 0 calc(env(safe-area-inset-bottom) + 104px);font-size:11px;letter-spacing:.3em;text-transform:uppercase;color:var(--muted)}
+footer i{font-style:normal;color:var(--terra);margin:0 .5em}
+
+/* ---------- bottom tab bar ---------- */
+.tabs{position:fixed;left:0;right:0;bottom:0;z-index:50;background:rgba(244,238,228,.94);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);border-top:1px solid var(--line);padding-bottom:env(safe-area-inset-bottom);transform:translateY(110%);transition:transform .6s var(--ease)}
+.tabs.show{transform:none}
+.tabs .wrap{display:grid;grid-template-columns:repeat(4,1fr);padding:0 8px}
+.tab{display:flex;flex-direction:column;align-items:center;gap:3px;padding:10px 0 9px;font-size:11px;letter-spacing:.12em;color:var(--muted);position:relative;transition:color .3s}
+.tab svg{width:20px;height:20px}
+.tab svg *{fill:none;stroke:currentColor;stroke-width:1.3;stroke-linecap:round;stroke-linejoin:round}
+.tab.active{color:var(--terra)}
+.tab::after{content:"";position:absolute;top:-1px;left:30%;right:30%;height:2px;background:var(--terra);transform:scaleX(0);transition:transform .4s var(--ease)}
+.tab.active::after{transform:none}
+
+/* ---------- reveal ---------- */
+.reveal{opacity:0;transform:translateY(18px);transition:opacity 1s var(--ease), transform 1s var(--ease);transition-delay:calc(var(--d,0) * 90ms)}
+.reveal.in{opacity:1;transform:none}
+
+@media (min-width:760px){
+  section{padding-top:96px}
+  .hero{padding-top:120px}
+  .side-note{display:block}
+  .stats{grid-template-columns:repeat(4,1fr)}
+  .stat:nth-child(n){padding:18px 0 18px 18px;border-left:1px solid var(--line);border-top:0}
+  .stat:first-child{border-left:0;padding-left:0}
+}
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{transition:none!important;animation:none!important}
+  .reveal,.enter{opacity:1!important;transform:none!important}
+  .draw{stroke-dashoffset:0}
+  .art .fill{opacity:.9}
+  .arch img{opacity:1;transform:none}
+  .hl{background-size:100% 46%}
+}
+</style>
+</head>
+<body>
+
+<header class="topbar" id="topbar">
+  <div class="wrap">
+    <a class="mark" href="#top">Mengyao<i>/</i>Lin</a>
+    <div class="lang" role="group" aria-label="Language / 语言">
+      <button type="button" data-set="zh" aria-pressed="true">中文</button><span>/</span><button type="button" data-set="en" aria-pressed="false">EN</button>
+    </div>
+  </div>
+</header>
+
+<main id="page">
+
+<!-- ================= HERO ================= -->
+<div class="hero" id="top">
+  <div class="wrap">
+    <div class="hero-grid">
+      <div class="side-note enter" style="--i:4"><span lang="zh">两种语言<br>一份用心<br>七年沉淀</span><span lang="en">Two languages.<br>One steady hand.<br>Seven years.</span></div>
+      <div class="arch-wrap enter" style="--i:0">
+        <svg class="arch-line" viewBox="0 0 100 125" preserveAspectRatio="none" aria-hidden="true"><path class="draw" pathLength="1" d="M0 125 V50 A50 50 0 0 1 100 50 V125"/></svg>
+        <div class="arch"><img src="assets/photo.jpg" alt="林梦瑶 Mengyao Lin" fetchpriority="high"></div>
+        <!-- hand-drawn sprig -->
+        <svg class="sprig art" viewBox="0 0 120 230" aria-hidden="true">
+          <path class="draw" pathLength="1" d="M62 226 C58 190 66 150 59 112 C53 78 61 44 74 8"/>
+          <path class="draw" pathLength="1" d="M60 196 C44 190 30 178 22 160 C38 162 52 176 60 196 Z"/>
+          <path class="draw soft" pathLength="1" d="M58 192 C46 182 36 172 26 163"/>
+          <path class="draw" pathLength="1" d="M61 176 C76 168 90 154 96 136 C80 140 66 156 61 176 Z"/>
+          <path class="draw soft" pathLength="1" d="M63 172 C74 162 84 150 93 139"/>
+          <path class="draw" pathLength="1" d="M58 146 C42 140 30 126 26 108 C42 112 54 126 58 146 Z"/>
+          <path class="draw soft" pathLength="1" d="M56 142 C46 132 36 120 29 111"/>
+          <path class="draw" pathLength="1" d="M60 124 C74 114 86 98 88 80 C74 86 62 104 60 124 Z"/>
+          <path class="draw soft" pathLength="1" d="M62 120 C70 108 78 96 86 84"/>
+          <path class="draw" pathLength="1" d="M60 92 C46 86 36 72 34 56 C48 60 58 74 60 92 Z"/>
+          <path class="draw soft" pathLength="1" d="M58 88 C50 78 42 68 37 60"/>
+          <path class="draw" pathLength="1" d="M66 64 C78 54 86 40 86 24 C74 30 66 46 66 64 Z"/>
+          <path class="draw soft" pathLength="1" d="M68 60 C74 48 80 38 84 28"/>
+          <circle class="fill" cx="40" cy="206" r="3.2"/><circle class="fill" cx="33" cy="212" r="2.6"/><circle class="fill" cx="44" cy="214" r="2.4"/>
+          <path class="draw soft" pathLength="1" d="M60 200 C52 204 46 206 40 206 M46 208 C40 210 36 211 33 212 M50 210 C48 212 46 213 44 214"/>
+        </svg>
+      </div>
+    </div>
+
+    <div class="intro">
+      <div class="kicker enter" style="--i:1"><span lang="zh">个人简历</span><span lang="en">Résumé</span><i>/</i>2026</div>
+      <h1 class="hello d enter" style="--i:2"><span lang="zh">林梦瑶</span><span lang="en">Mengyao Lin<i>.</i></span></h1>
+      <div class="roles enter" style="--i:3">
+        <span lang="zh">英文翻译<i>·</i>涉外助理<i>·</i>双语教育</span>
+        <span lang="en">Translator<i>·</i>Bilingual Assistant<i>·</i>Early Educator</span>
+      </div>
+      <p class="motto d enter" style="--i:4">
+        <span lang="zh">用专业把事情办妥，<br>用<span class="hl">温度</span>把人照顾好。</span>
+        <span lang="en">Getting things done with care —<br>in <span class="hl">two languages.</span></span>
+      </p>
+      <p class="lead enter" style="--i:5">
+        <span lang="zh">加拿大百年理工学院荣誉毕业，持中加双教师资格，拥有 7 年涉外商务与双语教育经验。</span>
+        <span lang="en">Honours graduate of Centennial College, Canada, licensed to teach in both Canada and China, with seven years across international business and bilingual education.</span>
+      </p>
+      <a class="cta enter" style="--i:6" href="#contact"><span lang="zh">与我联系</span><span lang="en">Get in touch</span><svg viewBox="0 0 92 16" aria-hidden="true"><path d="M1 8 H90 M80 1 C83 5 86 7 90 8 C86 9 83 11 80 15"/></svg></a>
+    </div>
+
+    <div class="stats">
+      <div class="stat reveal" style="--d:0"><small><span lang="zh">涉外工作（年）</span><span lang="en">Years cross‑border</span></small><b><span data-count="7">0</span><sup>+</sup></b></div>
+      <div class="stat reveal" style="--d:1"><small><span lang="zh">海外学习与工作（年）</span><span lang="en">Years abroad</span></small><b><span data-count="6">0</span><sup>+</sup></b></div>
+      <div class="stat reveal" style="--d:2"><small><span lang="zh">GPA · 满分 4.5</span><span lang="en">GPA · out of 4.5</span></small><b><span data-count="4.3" data-dec="1">0</span></b></div>
+      <div class="stat reveal" style="--d:3"><small><span lang="zh">中加教师资格</span><span lang="en">Teaching licences</span></small><b><span data-count="2">0</span></b></div>
+    </div>
+  </div>
+</div>
+
+<div class="wrap">
+
+
+<!-- ================= STRENGTHS ================= -->
+<section id="strengths">
+  <div class="kicker reveal">01<i>/</i><span lang="zh">核心优势</span><span lang="en">Strengths</span></div>
+  <div class="rule reveal"></div>
+  <div class="list">
+    <div class="item reveal"><span class="no">i.</span><h3 class="d"><span lang="zh">地道英文，口笔译兼修</span><span lang="en">Fluent English, spoken &amp; written</span></h3>
+      <p><span lang="zh">多年海外全英文沉浸式学习工作，口语地道流畅；可独立完成陪同口译、外贸及教育类文书中英笔译。</span><span lang="en">Years of full English immersion abroad. Handles escort interpreting and Chinese‑English translation of trade and education documents on her own.</span></p></div>
+    <div class="item reveal"><span class="no">ii.</span><h3 class="d"><span lang="zh">7 年复合型涉外经验</span><span lang="en">Seven versatile years</span></h3>
+      <p><span lang="zh">外贸客户开发维护、订单全流程跟进、商务行政统筹；同时深耕双语教育、国际家校对接与双语文案。</span><span lang="en">Client development, end‑to‑end order follow‑up and business admin — alongside bilingual teaching, international parent liaison and bilingual copywriting.</span></p></div>
+    <div class="item reveal"><span class="no">iii.</span><h3 class="d"><span lang="zh">中外双重教育背景</span><span lang="en">A dual education background</span></h3>
+      <p><span lang="zh">加拿大早期儿童教育荣誉毕业，回国进修教育学学位；持加拿大 RECE 与国内教师资格双证。</span><span lang="en">Honours in Early Childhood Education from Canada and a further education degree in China. Holds both an Ontario RECE and a PRC teaching licence.</span></p></div>
+    <div class="item reveal"><span class="no">iv.</span><h3 class="d"><span lang="zh">可靠、机动、跨文化</span><span lang="en">Reliable, mobile, cross‑cultural</span></h3>
+      <p><span lang="zh">持中国 C1 与加拿大驾照（美加通用），可独立完成外宾接送；持有效海外签证，跨文化沟通顺畅。</span><span lang="en">Licensed to drive in China and Canada (valid in the US) for guest transfers and errands. Holds a valid overseas visa and communicates across cultures with ease.</span></p></div>
+  </div>
+</section>
+
+<!-- ================= EXPERIENCE ================= -->
+<section id="experience">
+  <div class="kicker reveal">02<i>/</i><span lang="zh">工作经历</span><span lang="en">Experience</span></div>
+  <div class="rule reveal"></div>
+
+  <div class="chips reveal" role="group">
+    <button class="chip" data-filter="all" aria-pressed="true"><span lang="zh">全部</span><span lang="en">All</span></button>
+    <button class="chip" data-filter="biz" aria-pressed="false"><span lang="zh">涉外商务</span><span lang="en">Business</span></button>
+    <button class="chip" data-filter="edu" aria-pressed="false"><span lang="zh">双语教育</span><span lang="en">Education</span></button>
+  </div>
+
+  <div class="jobs">
+    <article class="job open reveal" data-cat="biz edu">
+      <button class="job-head" aria-expanded="true">
+        <span class="when">2026.08 — <span lang="zh">至今</span><span lang="en">Present</span><span class="now">NOW</span></span>
+        <span class="role d"><span lang="zh">幼儿成长陪伴 &amp; 家庭事务统筹</span><span lang="en">Child Companion &amp; Household Coordinator</span></span>
+        <span class="org"><span lang="zh">私人家庭</span><span lang="en">Private Family</span></span>
+        <span class="sum"><span lang="zh">陪伴 4 岁男童成长，开展中英法三语启蒙；统筹家庭出行、翻译与对外事务。</span><span lang="en">Guiding a 4‑year‑old through trilingual early learning, while running family travel, translation and outside affairs.</span></span>
+        <svg class="chev" viewBox="0 0 20 20" aria-hidden="true"><path d="M7 4 L13 10 L7 16"/></svg>
+      </button>
+      <div class="job-body"><div>
+        <div class="grp"><span lang="zh">幼儿培育</span><span lang="en">Early childhood</span></div>
+        <ul>
+          <li><span lang="zh">建立良好生活与学习习惯，进行正向品格引导，关注身心成长</span><span lang="en">Built healthy routines and learning habits with positive character guidance</span></li>
+          <li><span lang="zh">开展<b>中文、英文、法语三语启蒙</b>：益智互动、绘本共读、启蒙辅导</span><span lang="en">Delivered <b>trilingual early learning in Chinese, English and French</b> — play, picture books and tutoring</span></li>
+          <li><span lang="zh">负责上学及兴趣班接送</span><span lang="en">Handled school and activity drop‑offs and pick‑ups</span></li>
+        </ul>
+        <div class="grp"><span lang="zh">家庭统筹</span><span lang="en">Household</span></div>
+        <ul>
+          <li><span lang="zh">协助女主人安排出行计划，并负责出行接送</span><span lang="en">Planned family travel and provided driving</span></li>
+          <li><span lang="zh">承担<b>翻译、文件整理与校对</b></span><span lang="en">Handled <b>translation, document filing and proofreading</b></span></li>
+          <li><span lang="zh">对接外部服务商，处理家庭对外事宜，跟进落实日常事务</span><span lang="en">Liaised with service providers and followed through on daily affairs</span></li>
+        </ul>
+      </div></div>
+    </article>
+
+    <article class="job reveal" data-cat="biz edu">
+      <button class="job-head" aria-expanded="false">
+        <span class="when">2025.12 — 2026.07</span>
+        <span class="role d"><span lang="zh">总经理助理 · 一对一儿童陪伴</span><span lang="en">Executive Assistant to the GM</span></span>
+        <span class="org"><span lang="zh">烟台中医世家医药连锁有限公司</span><span lang="en">Yantai Zhongyi Shijia Pharmacy Chain Co., Ltd.</span></span>
+        <span class="sum"><span lang="zh">行政、文件与决策落地，同时全权负责总经理子女的教育管理。</span><span lang="en">Admin, documents and decision follow‑through — plus full ownership of the GM's children's education.</span></span>
+        <svg class="chev" viewBox="0 0 20 20" aria-hidden="true"><path d="M7 4 L13 10 L7 16"/></svg>
+      </button>
+      <div class="job-body"><div><ul>
+        <li><span lang="zh">协助总经理处理日常行政及家庭事务，协调工作推进</span><span lang="en">Supported the GM with daily admin and family matters</span></li>
+        <li><span lang="zh">负责<b>日程安排、记录及执行跟踪</b></span><span lang="en">Owned <b>scheduling, minutes and follow‑up</b></span></li>
+        <li><span lang="zh">管理文件资料，撰写和整理重要报告、汇报材料</span><span lang="en">Managed files; drafted key reports and briefings</span></li>
+        <li><span lang="zh">传达总经理指令，跟进落实各项决策事项</span><span lang="en">Relayed directives and saw decisions through</span></li>
+        <li><span lang="zh">全权负责子女的家校对接、学业跟进、行程统筹与习惯养成</span><span lang="en">Managed the children's school liaison, academics, schedules and habits</span></li>
+      </ul></div></div>
+    </article>
+
+    <article class="job reveal" data-cat="edu">
+      <button class="job-head" aria-expanded="false">
+        <span class="when">2024.10 — 2025.10</span>
+        <span class="role d"><span lang="zh">海外住家幼教</span><span lang="en">Live‑in Early Childhood Educator</span></span>
+        <span class="org"><span lang="zh">私人家庭 · 海外</span><span lang="en">Private Family · Overseas</span></span>
+        <span class="sum"><span lang="zh">全英文环境下全天陪伴婴幼儿，并完成入托衔接。</span><span lang="en">Full‑day infant care in an English‑speaking home, through to a smooth start at daycare.</span></span>
+        <svg class="chev" viewBox="0 0 20 20" aria-hidden="true"><path d="M7 4 L13 10 L7 16"/></svg>
+      </button>
+      <div class="job-body"><div><ul>
+        <li><span lang="zh">全天式陪伴婴幼儿，负责日常生活起居</span><span lang="en">Provided full‑day companionship and daily care</span></li>
+        <li><span lang="zh">设计适龄活动，培养肢体、语言、智力、社交与情绪能力</span><span lang="en">Planned activities for physical, language, cognitive, social and emotional growth</span></li>
+        <li><span lang="zh">为婴幼儿步入日托生活进行衔接</span><span lang="en">Prepared the child for daycare</span></li>
+      </ul></div></div>
+    </article>
+
+    <article class="job reveal" data-cat="biz">
+      <button class="job-head" aria-expanded="false">
+        <span class="when">2023.09 — 2024.03</span>
+        <span class="role d"><span lang="zh">外贸业务经理</span><span lang="en">Foreign Trade Sales Manager</span></span>
+        <span class="org"><span lang="zh">青岛青禾人造草坪股份有限公司</span><span lang="en">Qingdao Qinghe Artificial Turf Co., Ltd.</span></span>
+        <span class="mark-line"><span lang="zh"><span>半年负责 10+ 海外客户 · 小组成交量区域第一</span></span><span lang="en"><span>10+ overseas clients in six months · team #1 in the region</span></span></span>
+        <svg class="chev" viewBox="0 0 20 20" aria-hidden="true"><path d="M7 4 L13 10 L7 16"/></svg>
+      </button>
+      <div class="job-body"><div><ul>
+        <li><span lang="zh">行业全球第二的企业，与国际客户日常邮件及语音沟通</span><span lang="en">At the world's No. 2 turf maker, worked with international clients by email and phone</span></li>
+        <li><span lang="zh">开发和维护新老客户，开展海外市场调研</span><span lang="en">Won and kept clients; researched overseas markets</span></li>
+        <li><span lang="zh">负责订单录入、下达与跟进，安排发样及生产，熟练使用 <b>ERP / CRM</b></span><span lang="en">Owned orders, samples and production scheduling in <b>ERP / CRM</b></span></li>
+        <li><span lang="zh">协调公司内部各部门资源与客户需求</span><span lang="en">Aligned internal teams with client needs</span></li>
+      </ul></div></div>
+    </article>
+
+    <article class="job reveal" data-cat="biz">
+      <button class="job-head" aria-expanded="false">
+        <span class="when">2023.03 — 2023.09</span>
+        <span class="role d"><span lang="zh">涉外销售 · 能源化工</span><span lang="en">International Sales · Energy</span></span>
+        <span class="org"><span lang="zh">易贸信息科技有限公司</span><span lang="en">Yimao Information Technology Co., Ltd.</span></span>
+        <span class="sum"><span lang="zh">邀约海外客户参加行业会议，全流程对接，并承担笔译与现场口译。</span><span lang="en">Brought overseas delegates to industry conferences, end to end — with written and on‑site translation.</span></span>
+        <svg class="chev" viewBox="0 0 20 20" aria-hidden="true"><path d="M7 4 L13 10 L7 16"/></svg>
+      </button>
+      <div class="job-body"><div><ul>
+        <li><span lang="zh">以英文电话和邮件联络海外客户，邀请参加能源及化工行业会议</span><span lang="en">Invited overseas clients to energy &amp; chemical conferences by phone and email</span></li>
+        <li><span lang="zh">客户邀约、行程登记、参会资料整理、<b>会场外宾陪同</b></span><span lang="en">Managed invitations, registration, materials and <b>on‑site escort</b></span></li>
+        <li><span lang="zh">完成邀请函与宣传文案笔译，<b>展会现场双向口译</b></span><span lang="en">Translated invitations and copy; <b>interpreted both ways</b> at exhibitions</span></li>
+        <li><span lang="zh">售前促成合作，售后维护，推动客户再次参会</span><span lang="en">Closed deals and nurtured clients for repeat attendance</span></li>
+      </ul></div></div>
+    </article>
+
+    <article class="job reveal" data-cat="edu">
+      <button class="job-head" aria-expanded="false">
+        <span class="when">2019.10 — 2022.09</span>
+        <span class="role d"><span lang="zh">全英授课老师 · 校区行政助理</span><span lang="en">Teacher &amp; Campus Admin Assistant</span></span>
+        <span class="org">Sunrise Montessori School · <span lang="zh">加拿大</span><span lang="en">Canada</span></span>
+        <span class="sum"><span lang="zh">近三年蒙氏一线教学，兼顾校区行政、双语家校沟通与招聘支持。</span><span lang="en">Nearly three years teaching in English, plus campus admin, bilingual parent liaison and hiring support.</span></span>
+        <svg class="chev" viewBox="0 0 20 20" aria-hidden="true"><path d="M7 4 L13 10 L7 16"/></svg>
+      </button>
+      <div class="job-body"><div><ul>
+        <li><span lang="zh">兼任行政助理：巡检设施、归档英文教学台账、统筹日常运营</span><span lang="en">Campus admin: facility checks, English records and daily operations</span></li>
+        <li><span lang="zh"><b>双语对接外籍家长</b>，建立成长档案，定期输出双语成长反馈</span><span lang="en"><b>Bilingual liaison with international parents</b>; growth portfolios and progress reports</span></li>
+        <li><span lang="zh">依据兴趣与线索规划学习，为大班及小学生提供英文与数学辅导</span><span lang="en">Interest‑led learning plans; English and maths tutoring</span></li>
+        <li><span lang="zh">构思学校及节日活动；协助招聘面试与资料归档</span><span lang="en">Designed school events; supported interviews and hiring records</span></li>
+      </ul></div></div>
+    </article>
+
+    <article class="job reveal" data-cat="edu">
+      <button class="job-head" aria-expanded="false">
+        <span class="when">2017 — 2019</span>
+        <span class="role d"><span lang="zh">在校实习 &amp; 兼职</span><span lang="en">Placements &amp; Part‑time Work</span></span>
+        <span class="org"><span lang="zh">加拿大 · 安大略省</span><span lang="en">Ontario, Canada</span></span>
+        <svg class="chev" viewBox="0 0 20 20" aria-hidden="true"><path d="M7 4 L13 10 L7 16"/></svg>
+      </button>
+      <div class="job-body"><div><ul>
+        <li><b>Pauline Johnson Jr. Public School</b> · 2019.01–04<br><span lang="zh">实习老师：引导每日学习活动，确保户内外环境安全</span><span lang="en">Placement teacher: guided daily learning and kept spaces safe</span></li>
+        <li><b>A&amp;A Childcare Center</b> · 2018.09–12<br><span lang="zh">实习老师：依据兴趣规划课程，协助日常管理</span><span lang="en">Placement teacher: interest‑based planning and daily management</span></li>
+        <li><b><span lang="zh">兼职</span><span lang="en">Part‑time</span></b> · 2017 —<br><span lang="zh">餐厅服务员，后长期从事代购</span><span lang="en">Restaurant server, then cross‑border personal shopping</span></li>
+      </ul></div></div>
+    </article>
+  </div>
+</section>
+
+<!-- ================= EDUCATION ================= -->
+<section id="education">
+  <div class="kicker reveal">03<i>/</i><span lang="zh">教育经历</span><span lang="en">Education</span></div>
+  <div class="rule reveal"></div>
+
+  <!-- hand-drawn open book with quill -->
+  <svg class="edu-art art reveal" viewBox="0 0 160 100" aria-hidden="true">
+    <path class="draw" pathLength="1" d="M80 30 C64 20 40 18 16 24 L16 84 C40 78 64 80 80 90"/>
+    <path class="draw" pathLength="1" d="M80 30 C96 20 120 18 144 24 L144 84 C120 78 96 80 80 90"/>
+    <path class="draw" pathLength="1" d="M80 30 L80 90"/>
+    <path class="draw" pathLength="1" d="M10 30 L10 90 C40 84 64 86 80 96 C96 86 120 84 150 90 L150 30"/>
+    <path class="draw soft" pathLength="1" d="M26 36 C42 33 56 34 70 39 M26 46 C42 43 56 44 70 49 M26 56 C42 53 56 54 70 59 M26 66 C42 63 56 64 70 69"/>
+    <path class="draw soft" pathLength="1" d="M90 39 C104 34 118 33 134 36 M90 49 C104 44 118 43 134 46 M90 59 C104 54 118 53 134 56"/>
+    <path class="draw" pathLength="1" d="M118 4 C112 22 106 40 100 66 M118 4 C126 12 124 30 104 56 M118 4 C112 10 104 24 101 44"/>
+    <path class="draw soft" pathLength="1" d="M114 14 L121 16 M111 24 L119 27 M108 34 L116 38 M105 44 L112 47"/>
+  </svg>
+
+  <div class="note reveal">
+    <span class="when">2016.01 — 2019.04 · <span lang="zh">加拿大</span><span lang="en">Canada</span></span>
+    <h3 class="d"><span lang="zh">加拿大百年理工学院</span><span lang="en">Centennial College, Ontario</span></h3>
+    <div class="major"><span lang="zh">早期儿童教育（ECE）· 荣誉毕业</span><span lang="en">Early Childhood Education (ECE) · With Honours</span></div>
+    <p><span lang="zh">纯英文教育环境下系统学习儿童发展、观察、行为引导、沟通技巧、环境创设、家庭合作、健康与幸福、ELECT、CCEYA，并选修心理学。</span><span lang="en">Child development, observation, behaviour guidance, communication, learning environments, family partnerships, health &amp; wellbeing, ELECT, CCEYA and elective psychology — all taught in English.</span></p>
+    <div class="meta"><small>GPA</small><b>4.3<span> / 4.5</span></b></div>
+    <div class="bar"><i></i></div>
+  </div>
+  <div class="note reveal">
+    <span class="when">2021 — 2023 · <span lang="zh">中国</span><span lang="en">China</span></span>
+    <h3 class="d"><span lang="zh">鲁东大学</span><span lang="en">Ludong University</span></h3>
+    <div class="major"><span lang="zh">小学教育（进修学位）</span><span lang="en">Primary Education (Continuing Degree)</span></div>
+    <p><span lang="zh">系统学习国内教育学理论与教学管理体系，融合中外教育理念，精准把握教育类文案、教案与家校资料的翻译表述。</span><span lang="en">Chinese pedagogy and school management, blending both traditions — and sharpening precise translation of lesson plans and parent materials.</span></p>
+  </div>
+</section>
+
+<!-- ================= CREDENTIALS ================= -->
+<section id="credentials">
+  <div class="kicker reveal">04<i>/</i><span lang="zh">资质证书</span><span lang="en">Credentials</span></div>
+  <div class="rule reveal"></div>
+
+  <div class="sub-t reveal"><span lang="zh">语言</span><span lang="en">Languages</span></div>
+  <div class="fields reveal">
+    <div class="field"><span class="k"><span lang="zh">中文</span><span lang="en">Chinese</span></span><span class="v"><span lang="zh">母语</span><span lang="en">Native</span><small><span lang="zh">普通话二级甲等</span><span lang="en">Putonghua Level 2‑A</span></small></span></div>
+    <div class="field"><span class="k"><span lang="zh">英语</span><span lang="en">English</span></span><span class="v"><span lang="zh">流利</span><span lang="en">Fluent</span><small><span lang="zh">可作为日常工作语言</span><span lang="en">Comfortable working language</span></small></span></div>
+    <div class="field"><span class="k"><span lang="zh">法语</span><span lang="en">French</span></span><span class="v"><span lang="zh">启蒙</span><span lang="en">Basic</span><small><span lang="zh">可开展幼儿启蒙教学</span><span lang="en">Early‑learning level</span></small></span></div>
+  </div>
+
+  <div class="sub-t reveal"><span lang="zh">证书</span><span lang="en">Certificates</span></div>
+  <div class="fields certs reveal">
+    <div class="field"><span class="k">i</span><span class="v">RECE<small><span lang="zh">加拿大安大略省注册幼儿教师</span><span lang="en">Registered Early Childhood Educator, Ontario</span></small></span></div>
+    <div class="field"><span class="k">ii</span><span class="v"><span lang="zh">中华人民共和国教师资格证</span><span lang="en">PRC Teacher Qualification Certificate</span></span></div>
+    <div class="field"><span class="k">iii</span><span class="v"><span lang="zh">早期儿童教育优秀毕业生荣誉证书</span><span lang="en">ECE Honours Graduate Certificate</span></span></div>
+    <div class="field"><span class="k">iv</span><span class="v"><span lang="zh">急救证书</span><span lang="en">First Aid</span><small><span lang="zh">加拿大红十字会颁发</span><span lang="en">Canadian Red Cross</span></small></span></div>
+    <div class="field"><span class="k">v</span><span class="v"><span lang="zh">健康与安全意识证书</span><span lang="en">Health &amp; Safety Awareness</span></span></div>
+    <div class="field"><span class="k">vi</span><span class="v"><span lang="zh">中国 C1 驾照 · 加拿大驾照</span><span lang="en">China C1 &amp; Canadian driver's licences</span><small><span lang="zh">美加通用 · 驾驶熟练</span><span lang="en">Valid in the US &amp; Canada</span></small></span></div>
+  </div>
+</section>
+
+<!-- ================= ABOUT ================= -->
+<section id="about">
+  <div class="kicker reveal">05<i>/</i><span lang="zh">关于我</span><span lang="en">About</span></div>
+  <div class="rule reveal" style="margin-bottom:34px"></div>
+  <div class="quote reveal">
+    <p class="q d"><span lang="zh">先倾听，再用清晰、专业的方式回应——<span class="hl">这是我连接两种语言的方式。</span>”</span><span lang="en">I listen first, then answer with clarity and care — <span class="hl">that's how I bridge two languages.</span>”</span></p>
+    <p class="by">— <span lang="zh">林梦瑶</span><span lang="en">Mengyao Lin</span></p>
+    <p class="more"><span lang="zh">毕业于加拿大知名公立院校并获荣誉毕业生资质，长期的海外学习与全职工作，让我熟悉海外各行业的业态与沟通方式。</span><span lang="en">An honours graduate of a respected Canadian public college, I spent years studying and working full‑time abroad, learning how international workplaces think and talk.</span></p>
+    <p class="more"><span lang="zh">涉外销售、双语翻译、校园行政与团队协作，我都做过。面对海外客户与外籍家长，我能把专业信息讲清楚；面对孩子，我习惯用多元的方式去引导。处事灵活、善于协调，工作中收获一致好评。</span><span lang="en">I've worked in international sales, translation, school administration and teams. With clients and parents I make complex information clear; with children I guide patiently and creatively. Flexible, people‑minded, and consistently well reviewed.</span></p>
+  </div>
+</section>
+
+<!-- ================= CONTACT ================= -->
+<section id="contact">
+  <div class="kicker reveal">06<i>/</i><span lang="zh">联系方式</span><span lang="en">Contact</span></div>
+  <h2 class="d reveal"><span lang="zh">期待与您合作</span><span lang="en">Let's work together<span style="color:var(--terra)">.</span></span></h2>
+  <div class="rule reveal"></div>
+  <!-- hand-drawn envelope with leaf -->
+  <svg class="contact-art art reveal" viewBox="0 0 140 90" aria-hidden="true">
+    <path class="draw" pathLength="1" d="M8 22 L108 16 L114 78 L14 84 Z"/>
+    <path class="draw" pathLength="1" d="M8 22 L62 56 L108 16"/>
+    <path class="draw soft" pathLength="1" d="M14 84 L52 50 M114 78 L72 48"/>
+    <path class="draw" pathLength="1" d="M104 30 C116 18 128 10 136 6"/>
+    <path class="draw" pathLength="1" d="M116 20 C112 10 116 4 124 2 C126 10 122 16 116 20 Z"/>
+    <path class="draw" pathLength="1" d="M124 13 C132 10 136 14 138 20 C130 22 126 18 124 13 Z"/>
+  </svg>
+  <div class="links reveal">
+    <a class="link" href="tel:+8618766697631"><span><small><span lang="zh">电话</span><span lang="en">Phone</span></small><b>187 6669 7631</b></span><svg viewBox="0 0 46 12" aria-hidden="true"><path d="M1 6 H44 M37 1 C39 4 41 5 44 6 C41 7 39 8 37 11"/></svg></a>
+    <a class="link" href="mailto:592253730@qq.com"><span><small><span lang="zh">邮箱</span><span lang="en">Email</span></small><b>592253730@qq.com</b></span><svg viewBox="0 0 46 12" aria-hidden="true"><path d="M1 6 H44 M37 1 C39 4 41 5 44 6 C41 7 39 8 37 11"/></svg></a>
+  </div>
+</section>
+
+</div>
+
+<footer>Mengyao<i>/</i>Lin · 2026</footer>
+</main>
+
+<nav class="tabs" id="tabs" aria-label="Sections">
+  <div class="wrap">
+    <a class="tab" href="#top" data-spy="top"><svg viewBox="0 0 24 24"><path d="M4 11 L12 4 L20 11 V20 H4 Z"/><path d="M10 20 V14 H14 V20"/></svg><span lang="zh">首页</span><span lang="en">Home</span></a>
+    <a class="tab" href="#experience" data-spy="experience"><svg viewBox="0 0 24 24"><rect x="4" y="7" width="16" height="13" rx="1.5"/><path d="M9 7 V5 H15 V7 M4 12 H20"/></svg><span lang="zh">经历</span><span lang="en">Work</span></a>
+    <a class="tab" href="#education" data-spy="education"><svg viewBox="0 0 24 24"><path d="M12 6 C9 4.5 6 4.5 3 5.5 V19 C6 18 9 18 12 19.5 C15 18 18 18 21 19 V5.5 C18 4.5 15 4.5 12 6 Z M12 6 V19.5"/></svg><span lang="zh">资历</span><span lang="en">Study</span></a>
+    <a class="tab" href="#contact" data-spy="contact"><svg viewBox="0 0 24 24"><rect x="3" y="6" width="18" height="13" rx="1.5"/><path d="M3 7 L12 13 L21 7"/></svg><span lang="zh">联系</span><span lang="en">Contact</span></a>
+  </div>
+</nav>
+
+<script>
+(function(){
+  var root = document.documentElement;
+  var titles = { zh: '林梦瑶 · 个人简历', en: 'Mengyao Lin · Résumé' };
+  var reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  /* ---------- language ---------- */
+  function apply(lang){
+    root.setAttribute('data-lang', lang);
+    root.setAttribute('lang', lang === 'zh' ? 'zh-CN' : 'en');
+    document.title = titles[lang];
+    document.querySelectorAll('.lang button').forEach(function(b){
+      b.setAttribute('aria-pressed', b.dataset.set === lang ? 'true' : 'false');
+    });
+  }
+  var saved = null;
+  try { saved = localStorage.getItem('lang'); } catch(e){}
+  var q = new URLSearchParams(location.search).get('lang');
+  apply(q === 'en' || q === 'zh' ? q : (saved || (/^zh/i.test(navigator.language || '') ? 'zh' : 'en')));
+
+  document.querySelectorAll('.lang button').forEach(function(b){
+    b.addEventListener('click', function(){
+      var lang = b.dataset.set;
+      if (lang === root.getAttribute('data-lang')) return;
+      try { localStorage.setItem('lang', lang); } catch(e){}
+      document.querySelectorAll('.lang button').forEach(function(x){ x.setAttribute('aria-pressed', x === b ? 'true' : 'false'); });
+      if (reduce) { apply(lang); return; }
+      document.body.classList.add('swapping');
+      setTimeout(function(){
+        // keep whatever is under the top bar in place while text lengths change
+        var anchor = null, off = 0;
+        document.querySelectorAll('section, .job, .item, .note, .field').forEach(function(el){
+          var r = el.getBoundingClientRect();
+          if (!anchor && r.bottom > 70) { anchor = el; off = r.top; }
+        });
+        apply(lang);
+        if (anchor && window.scrollY > 40) window.scrollTo({ top: window.scrollY + anchor.getBoundingClientRect().top - off, behavior: 'instant' });
+        requestAnimationFrame(function(){ document.body.classList.remove('swapping'); });
+      }, 300);
+    });
+  });
+
+  /* ---------- hero entrance ---------- */
+  requestAnimationFrame(function(){ requestAnimationFrame(function(){
+    document.body.classList.add('loaded');
+    document.querySelectorAll('.hero .draw').forEach(function(p){ p.classList.add('in'); });
+    document.querySelector('.sprig').classList.add('in');
+  }); });
+
+  /* ---------- expandable jobs ---------- */
+  document.querySelectorAll('.job-head').forEach(function(h){
+    h.addEventListener('click', function(){
+      var job = h.closest('.job'), open = !job.classList.contains('open');
+      job.classList.toggle('open', open);
+      h.setAttribute('aria-expanded', open);
+    });
+  });
+
+  /* ---------- filter chips ---------- */
+  document.querySelectorAll('.chip').forEach(function(c){
+    c.addEventListener('click', function(){
+      var f = c.dataset.filter;
+      document.querySelectorAll('.chip').forEach(function(x){ x.setAttribute('aria-pressed', x === c ? 'true' : 'false'); });
+      document.querySelectorAll('.job').forEach(function(j){
+        var show = f === 'all' || j.dataset.cat.split(' ').indexOf(f) > -1;
+        j.classList.toggle('hide', !show);
+        if (show && !reduce) j.animate([{opacity:0, transform:'translateY(8px)'},{opacity:1, transform:'none'}], {duration:500, easing:'cubic-bezier(.22,1,.36,1)'});
+      });
+    });
+  });
+
+  /* ---------- count up ---------- */
+  function countUp(el){
+    var target = parseFloat(el.dataset.count), dec = +(el.dataset.dec || 0);
+    if (reduce) { el.textContent = target.toFixed(dec); return; }
+    var t0 = null;
+    function step(t){
+      if (!t0) t0 = t;
+      var p = Math.min((t - t0) / 1600, 1), e = 1 - Math.pow(1 - p, 4);
+      el.textContent = (target * e).toFixed(dec);
+      if (p < 1) requestAnimationFrame(step);
+    }
+    requestAnimationFrame(step);
+  }
+
+  /* ---------- reveal on scroll ---------- */
+  var io = new IntersectionObserver(function(entries){
+    entries.forEach(function(en){
+      if (!en.isIntersecting) return;
+      var el = en.target;
+      el.classList.add('in');
+      el.querySelectorAll('[data-count]').forEach(countUp);
+      io.unobserve(el);
+    });
+  }, { threshold: .15, rootMargin: '0px 0px -6% 0px' });
+  document.querySelectorAll('.reveal').forEach(function(el){ io.observe(el); });
+
+  /* ---------- top bar, tab bar, scroll spy ---------- */
+  var top = document.getElementById('topbar'), tabs = document.getElementById('tabs');
+  var spies = ['contact','education','experience'].map(function(id){ return document.getElementById(id); });
+  var ticking = false;
+  function onScroll(){
+    var y = window.scrollY;
+    top.classList.toggle('scrolled', y > 30);
+    tabs.classList.toggle('show', y > innerHeight * .5);
+    var cur = 'top';
+    if (innerHeight + y >= document.documentElement.scrollHeight - 4) cur = 'contact';
+    else for (var i = 0; i < spies.length; i++) { if (spies[i].getBoundingClientRect().top < innerHeight * .4) { cur = spies[i].id; break; } }
+    document.querySelectorAll('.tab').forEach(function(t){ t.classList.toggle('active', t.dataset.spy === cur); });
+    ticking = false;
+  }
+  window.addEventListener('scroll', function(){ if (!ticking){ ticking = true; requestAnimationFrame(onScroll); } }, { passive: true });
+  window.addEventListener('resize', onScroll);
+  onScroll();
+})();
+</script>
+</body>
+</html>
